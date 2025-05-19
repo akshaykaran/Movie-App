@@ -46,11 +46,18 @@ export default function MovieData() {
   return (
     <div>
       <Navbar handleSearch={handleSearch} />
-      <div>
-        <button onClick={(e) => handleMovie(e)} className="Btn-Tab">
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-between",
+          marginTop: "10px",
+          padding: "0px 60px",
+        }}
+      >
+        <button onClick={(e) => handleMovie(e)} className="Btn-Tab1">
           Movie
         </button>
-        <button onClick={(e) => handleFav(e)} className="Btn-Tab">
+        <button onClick={(e) => handleFav(e)} className="Btn-Tab2">
           Fav
         </button>
       </div>

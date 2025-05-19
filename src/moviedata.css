@@ -1,14 +1,32 @@
-.Btn-Tab{
-    background: #fff;
-    padding: 10px;
-    margin-right: 13px;
-    border-radius: 3px;
-    border: 1px solid #e1e1e1;
-    bottom: 30px;
-    height: 50px;
-    width: 110px;
+.Btn-Tab1 {
+  background: #000;
+  color: white;
+  padding: 10px;
+  margin-right: 13px;
+  border-radius: 50px;
+  bottom: 30px;
+  font-weight: 700;
+  font-size: 18px;
+  height: 50px;
+  width: 130px;
 }
-.Btn-Tab:hover{
-    background-color: blue;
-    color: white;
+.Btn-Tab2 {
+  background: #000;
+  color: white;
+  padding: 10px;
+  margin-right: 13px;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 18px;
+  bottom: 30px;
+  height: 50px;
+  width: 130px;
+}
+.Btn-Tab1:hover {
+  background-color: #7848fd;
+  color: white;
+}
+.Btn-Tab2:hover {
+  background-color: #7848fd;
+  color: white;
 }
