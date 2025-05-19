@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import MovieSearch from "./MovieSearch";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 import LikedMovie from "./LikedMovie";
 import "./moviedata.css";
 export default function MovieData() {
@@ -85,6 +86,10 @@ export default function MovieData() {
               </div>
             );
           })}
+
+      <div>
+        <Footer />
+      </div>
     </div>
   );
 }
